@@ -2,6 +2,7 @@
 ===
 ##Introduction
 构建分布式的巢状http服务。一个请求的过程如下：
+
 1.gateway利用tornado框架来分析http请求中的参数和路径，并绑定全局唯一request_id，接着投递给router，
 
 2.router通过匹配url转发表确定出一个cell service(backend)，将来源(gateway)同时写入数据包，并将数据包投递给backend
