@@ -16,8 +16,8 @@
 
 ##Quick Start
 部署之前需要tornado, futures, zmq模块，先安装依赖
-然后依次启动gateway, route, backend。backend是重点需要关注的，一个backend也就是一个nest cell
-重点关注一下backend, 进入backend目录，然后
+然后依次启动gateway, route, backend。backend是重点需要关注的，一个backend也就是一个nest cell。
+首先重点关注一下backend, 进入backend目录，然后
 
 1.在“biz”目录中创建一个py文件，文件名任意但最好不要跟第三方库冲突
 
