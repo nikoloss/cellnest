@@ -1,0 +1,10 @@
+{
+  "logging": {
+    "conf": "dev_log.conf"
+  },
+
+  /*
+   * router
+  */
+  "router": "localhost:9021"
+}

@@ -1,0 +1,10 @@
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.pyc
+.idea
+*.iml
+out
+gen
+# Created by .ignore support plugin (hsz.mobi)

@@ -1,0 +1,6 @@
+{
+  "connect": "127.0.0.1:9022",
+  "logging": {
+    "conf": "dev_log.conf"
+  }
+}

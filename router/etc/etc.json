@@ -1,0 +1,9 @@
+{
+  "router": {
+    "front": "9021", /*处理gateway数据端口*/
+    "backend": "9022" /*处理service数据端口*/
+  },
+  "logging": {
+    "conf": "dev_log.conf"
+  }
+}
