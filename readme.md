@@ -17,13 +17,13 @@
 ##Quick Start
 部署之前需要tornado, futures, zmq模块，先安装依赖
 然后依次启动gateway, route, backend。backend是重点需要关注的，一个backend也就是一个nest cell。
-首先重点关注一下backend, 进入backend目录，然后
+首先进入backend目录，然后
 
 1.在“biz”目录中创建一个py文件，文件名任意但最好不要跟第三方库冲突
 
 2.使用 "Router.routine" 装饰器注册函数到路由表中，仿造示例即可
 
-3.到主目录下，使用命令"python serv.py" 启动工程，用浏览器访问步骤二中注册的路径可看到效果
+3.到主目录下，使用命令"python serv.py" 启动工程，用浏览器访问步骤二中注册的路径可看到效果(http://localhost:8888/api/hello/billy?age=12)
 
 
 ## License
