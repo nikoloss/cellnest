@@ -23,7 +23,7 @@
 
 2.使用 "Router.routine" 装饰器注册函数到路由表中，仿造示例即可
 
-3.到主目录下，使用命令"python serv.py" 启动工程，用浏览器访问步骤二中注册的路径可看到效果(http://localhost:8888/api/hello/billy?age=12)
+3.到主目录下，使用命令"python serv.py" 启动工程，用浏览器访问步骤二中注册的路径可看到效果(例如访问demo的路径就是http://localhost:8888/api/hello/billy?age=12)
 
 
 ## License
