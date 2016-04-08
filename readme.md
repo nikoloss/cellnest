@@ -14,6 +14,11 @@
 
 5.gateway接收router回复的response，通过数据包中的request_id来回复具体的socket fd，自此 一个完整的请求流程处理完毕
 
+##Why?
+为什么要这么做，随着软件规模的上升跟解耦，服务会越来越离散跟分裂，这样有助于在不影响一部分服务的同时，开发另一部分新
+服务，然而这些服务终究是“服务”需要提供统一的接口供外部调用，同时保证的一部分服务的宕机不会影响整个系统。于是一个既方便
+开发又方便部署的方案就被提上了案头。
+
 ##Quick Start
 部署之前需要tornado, futures, zmq模块，先安装依赖
 然后依次启动gateway, route, backend。backend是重点需要关注的，一个backend也就是一个nest cell。
